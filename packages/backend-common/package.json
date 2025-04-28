@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -b"
   },
   "exports": {
-    "./config": "./src/index.ts"
+    "./config": "./src/index.js"
   },
   "devDependencies": {
-    "../typescript-config/base.json": "workspace*"
+    "@repo/typescript-config": "workspace:"
   },
   "keywords": [],
   "author": "",
